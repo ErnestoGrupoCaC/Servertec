@@ -199,7 +199,7 @@ header {
 
     div.headerGrande1{
         display: inline-block;
-        width: 44%;
+        width: 225px;
         height: 170px;
         border: 0px;
         padding: 0px;
@@ -212,7 +212,7 @@ header {
 
     div.headerGrande2{
         display: inline-block;
-        width: 44%;
+        width: 225px;
         height: 170px;
         border: 0px;
         padding: 0px;
@@ -248,7 +248,7 @@ header {
     }
     div.headerGrandeLogo{
         display: inline-block;
-        width: 12%;
+        width: 124px;
         height: 170px;
         border: 0px;
         padding: 0px;
