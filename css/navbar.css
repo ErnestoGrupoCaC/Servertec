@@ -65,7 +65,7 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/perito.jpg);
         background-size: 100% 100%;
         background-repeat:no-repeat;
@@ -78,8 +78,8 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
-        background-image:url(../img/condor.jpg);
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
         background-size: 100% 100%;
         background-repeat:no-repeat;
     }
@@ -90,7 +90,7 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/puente.jpg);
         background-size: 100% 100%;
         background-repeat:no-repeat;
@@ -102,8 +102,8 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
-        background-image:url(../img/chalten.jpg);
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
         background-size: 100% 100%;
         background-repeat:no-repeat;            
     }
@@ -133,9 +133,9 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/perito.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat:no-repeat;
     }
 
@@ -146,9 +146,9 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
-        background-image:url(../img/condor.jpg);
-        background-size: 100% 100%;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
+        background-size: cover;
         background-repeat:no-repeat;
     }
     div.headerGrande3{
@@ -158,9 +158,9 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/puente.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat:no-repeat;
     }
     div.headerGrande4{
@@ -170,14 +170,14 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/chalten.jpg);
-        background-size: 100% 100%;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
+        background-size: cover;
         background-repeat:no-repeat;            
     }
     div.headerGrandeLogo{
         display: inline-block;
-        width: 124px;
+        width:124px ;
         height: 170px;
         border: 0px;
         padding: 0px;
@@ -199,27 +199,27 @@ header {
 
     div.headerGrande1{
         display: inline-block;
-        width: 29%;
+        width: 44%;
         height: 170px;
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/perito.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat:no-repeat;
     }
 
     div.headerGrande2{
         display: inline-block;
-        width: 29%;
+        width: 44%;
         height: 170px;
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
-        background-image:url(../img/condor.jpg);
-        background-size: 100% 100%;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/chalten.jpg);
+        background-size: cover;
         background-repeat:no-repeat;
     }
     div.headerGrande3{
@@ -229,9 +229,9 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 111, 0);
+        background-color: rgb(128, 0, 255);
         background-image:url(../img/puente.jpg);
-        background-size: 100% 100%;
+        background-size: cover;
         background-repeat:no-repeat;
     }
     div.headerGrande4{
@@ -241,14 +241,14 @@ header {
         border: 0px;
         padding: 0px;
         margin: 0px;
-        background-color: rgb(255, 255,255);
-        background-image:url(../img/chalten.jpg);
-        background-size: 100% 100%;
+        background-color: rgb(128, 0, 255);
+        background-image:url(../img/condor.jpg);
+        background-size: cover;
         background-repeat:no-repeat;            
     }
     div.headerGrandeLogo{
         display: inline-block;
-        width: 124px;
+        width: 12%;
         height: 170px;
         border: 0px;
         padding: 0px;
