@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Geniales</title>
+    <link rel="shortcut icon" href="img/pictures.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/61047caf4c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/navbar.js"></script>
+</head>
+<body>
+    <nav class="topnav" id="barraNav">
+        <a href="index.html">Home</a>
+        <a href="destinos.html">Destinos</a>
+        <a href="contact.html" class="activa">Contacto</a>
+        <a href="javascript:void(0);" class="icono" onclick="menuResponsivo()">
+            <i class="fa fa-bars"></i>       
+        </a>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <br>
+                <p>Si tienes alguna consulta, sugerencia o queja, no dudes en contactarnos por cualquiera de los siguientes medios.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h3>Formulario de contacto</h3>
+                <p>Envíanos un mensaje mediante el siguiente formulario.</p>
+                <form action="https://formspree.io/f/xpznpjzp" method="post" target="_blank">
+                    <label class="form-label" for="name">Nombre: </label>
+                    <input type="text" class="form-control" name="name" id="name">
+                    <label class="form-label" for="lastname">Apellido: </label>
+                    <input type="text" class="form-control" name="lastname" id="lastname">
+                    <label class="form-label" for="country">Nacionalidad: </label>
+                    <select class="form-select" name="country" id="pais">
+                        <option selected>Escoge una opción...</option>
+                        <option value="arg">Argentina</option>
+                        <option value="mer">Mercosur</option>
+                        <option value="otr">Otros países</option>
+                    </select>
+                    <label class="form-label" for="age">Fecha de nacimiento: </label>
+                    <input type="date" class="form-control" name="age" id="age">
+                    <label class="form-label" for="email">Correo electrónico: </label>
+                    <input type="email" class="form-control" name="email" id="email">
+                    <label class="form-label" for="cel">Celular: </label>
+                    <input type="tel" class="form-control" name="cel" id="cel">
+                    <label class="form-label" for="message">Mensaje: </label>
+                    <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                    <!--<label class="form-label" for="attach">Adjuntar archivo: </label>
+                    <input type="file" class="form-control" name="attach" id="attach" multiple>-->
+                    <br>
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                    <input type="reset" class="btn btn-default" value="Borrar">
+                </form>
+            </div>
+            <div class="col-md-5">
+                <h3>Contacto directo</h3>
+                <p>También puedes venir a visitarnos a nuestras oficinas:</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.14771908208!2d-58.377790684872345!3d-34.600425980460294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacb8fd5e013%3A0xbedb611909eb759!2sAgencia%20de%20Turismo%20-%20Mais%20Brazucas!5e0!3m2!1ses-419!2sar!4v1663328648904!5m2!1ses-419!2sar" width=100% height=200 style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br><br>
+                <p>O contactarnos por los siguientes medios:</p>
+                <ul>
+                    <li><i class="fa-brands fa-whatsapp"></i> Whasapp: +54 9 11 1234-5678</li>
+                    <li><i class="fa-thin fa-mobile"></i></i> Teléfono: +54 011 5678-1234</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
